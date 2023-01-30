@@ -1,0 +1,15 @@
+<div class="signup-cntr">
+    <h1>SignUp</h1>
+    <form #signupForm="ngForm" (ngSubmit)="onSignUp()">
+        <div class="mb-3">
+          <input type="text" class="form-control" name="name" ngModel placeholder="Enter Name">
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" name="password" ngModel placeholder="Enter Password">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" name="email" nGmodel placeholder="Enter Email">
+          </div>
+        <button type="submit" class="btn btn-primary w-100">SignUp</button>
+      </form>
+</div>
